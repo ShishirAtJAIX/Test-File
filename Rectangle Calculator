@@ -1,0 +1,30 @@
+using System;
+
+class RectangleCalculator
+{
+    static void Main()
+    {
+        Console.WriteLine("=== Rectangle Calculator ===");
+
+        // Get the width
+        Console.Write("Enter the width of the rectangle: ");
+        double width = Convert.ToDouble(Console.ReadLine());
+
+        // Get the height
+        Console.Write("Enter the height of the rectangle: ");
+        double height = Convert.ToDouble(Console.ReadLine());
+
+        // Calculate area and perimeter
+        double area = width * height;
+        double perimeter = 2 * (width + height);
+
+        // Display results
+        Console.WriteLine("\n--- Results ---");
+        Console.WriteLine($"Width: {width}");
+        Console.WriteLine($"Height: {height}");
+        Console.WriteLine($"Area: {area}");
+        Console.WriteLine($"Perimeter: {perimeter}");
+
+        Console.WriteLine("\nThank you for using the Rectangle Calculator!");
+    }
+}
