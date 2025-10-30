@@ -25,6 +25,6 @@ class RectangleCalculator
         Console.WriteLine($"Area: {area}");
         Console.WriteLine($"Perimeter: {perimeter}");
 
-        Console.WriteLine("\nThank you for using the Rectangle Calculator!");
+        Console.WriteLine("\n $5 for using the Rectangle Calculator!, Thanks");
     }
 }
